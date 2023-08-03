@@ -1,0 +1,2416 @@
+/*--------------------- section-first ----------------*/
+.wowe_section-one {
+    background-size: 100% 100%;
+    /* background-position: center; */
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(../../Images/discuss1.webp);
+    background-color: black;
+  }
+  
+  .wowe_text1 {
+    user-select: none;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    color: rgb(0, 213, 255);
+    font-size: 40px;
+    padding-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+  }
+  
+  .wowe_text2 {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-left: 25%;
+  }
+  
+  .wowe_text3 {
+    user-select: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+  }
+  
+  /* --------------------------down arrow ---------------*/
+  .wowe_arrow_right {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .wowe_fortopsec {
+    top: 100%;
+    left: 50%;
+  }
+  
+  .wowe_arrow_right span {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-bottom: 10px solid rgb(237, 207, 207);
+    border-right: 3px solid rgb(244, 219, 219);
+    transform: rotate(90deg);
+    margin: 50px;
+    animation: animate 5s infinite;
+  }
+  
+  .wowe_arrow_right span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+  
+  .wowe_arrow_right span:nth-child(3) {
+    animation-delay: -0.5s;
+  }
+  
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
+  
+  /* ----------------------------------arrows media query------------------------- */
+  @media screen and (min-device-width: 360px) {
+    .wowe_fortopsec {
+      top: 25%;
+      left: 7%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -40px;
+      animation: animate 2s infinite;
+    }
+  }
+  
+  .wowe_section-two {
+    width: 100%;
+    height: 635px;
+    background-color: #2b1b17;
+  }
+  
+  .wowe_highlight {
+    user-select: none;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 170, 255);
+  }
+  
+  .wowe_highlight1 {
+    user-select: none;
+    font-size: 25px;
+    color: rgb(0, 170, 255);
+  }
+  
+  .who_we_t1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    user-select: none;
+  }
+  
+  .who_we_t1 .who_we_t1_p {
+    text-align: center;
+  }
+  
+  .who_we_t2 {
+    width: 88%;
+    margin-top: 20%;
+  }
+  
+  .image {
+    position: relative;
+    width: 45%;
+    height: 40vh;
+    margin-left: 10%;
+  }
+  
+  .wowe_para>p {
+    width: 100%;
+    user-select: none;
+    color: white;
+    text-align: left;
+    padding-left: 63%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: -27%;
+  }
+  
+  /* ----------------section third started---------------- */
+  .wowe_section-three {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .who_we_head1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 157, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4%; */
+  }
+  
+  .who_we_head1 .who_we_head1_para {
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .wowe_p1 {
+    margin-top: 10%;
+    user-select: none;
+    /* font-size: 20px; */
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .wowe_p2 {
+    user-select: none;
+    /* font-size: 10px;  */
+    color: rgb(0, 179, 255);
+    text-align: center;
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* colmns pages started */
+  .who_we_cols {
+    width: 100%;
+    padding-left: 5%;
+    /* margin-right: -20%; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 5%; */
+  }
+  
+  .who_we_row {
+    display: flex;
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .who_we_column {
+    flex-basis: 30%;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    margin-left: 2.5%;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+  
+  .who_we_column_h4 {
+    font-size: 20px;
+  }
+  
+  /* -------------section forth started---------- */
+  .wowe_section-four {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(0, 162, 255);
+  }
+  
+  .who_we_h5 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .who_we_h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  /* tables */
+  .row2 {
+    margin-top: 5%;
+    align-content: center;
+    display: flex;
+  }
+  
+  .wowe_column1 {
+    flex-basis: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 10%;
+  }
+  
+  .wowe_column2 {
+    flex-basis: 89%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 7%;
+  }
+  
+  .wowe_column2>img {
+    height: 86%;
+    width: 71%;
+  }
+  
+  /* ----------------------------section five is started--------------------- */
+  .wowe_section-five {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .last {
+    align-content: center;
+  }
+  
+  .last .last_para {
+    user-select: none;
+    margin-left: 45%;
+    margin-top: 3%;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+  
+  .last .last_h4 {
+    font-size: 30px;
+    color: rgb(0, 179, 255);
+    margin-top: 2%;
+    margin-left: 27%;
+    align-items: center;
+  }
+  
+  .who_we_col {
+    user-select: none;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .col .who_we_h5 {
+    color: rgb(0, 170, 255);
+  }
+  
+  /* .attri{
+      margin-left: 50%;
+    } */
+  .paragraph {
+    margin-top: -24%;
+  }
+  
+  .img1WhoWe {
+    width: 80%;
+    height: 87%;
+  }
+  
+  .img2WhoWe {
+    width: 81%;
+    height: 90%;
+  }
+  
+  .img3WhoWe {
+    width: 81%;
+    height: 90%;
+  }
+  
+  /*media functions*/
+  
+  /* ----------------media query for laptop --------------------------*/
+  
+  @media screen and (min-width: 625px) and (max-width: 1024px) {
+    .wowe_section-one {
+      background-size: 100% 100%;
+      /* background-position: center; */
+      width: 100%;
+      height: 635px;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      user-select: none;
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    .wowe_text2 {
+      user-select: none;
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-left: 15%;
+    }
+  
+    .wowe_text3 {
+      user-select: none;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    /* -------------------------- media  query down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: 12%;
+      left: 5%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.5s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    .wowe_section-two {
+      width: 100%;
+      height: 635px;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 25px;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .image {
+      position: relative;
+      width: 45%;
+      height: 40vh;
+      margin-left: 10%;
+    }
+  
+    .wowe_para>p {
+      width: 133%;
+      color: white;
+      text-align: left;
+      padding-left: 80%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+      margin-top: -42%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: 90%;
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      width: 71%;
+      text-align: center;
+      margin-left: 18%;
+    }
+  
+    .wowe_p1 {
+      font-size: 30px;
+      color: rgb(3, 3, 3);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      /* width: 40%; */
+      font-size: 30px;
+      color: rgb(0, 179, 255);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      margin-top: -5%;
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    .who_we_row {
+      display: flex;
+      width: 100%;
+      /* margin-left: 50%; */
+    }
+  
+    .who_we_column {
+      flex-basis: 30%;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started---------- */
+    .wowe_section-four {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 8;
+      background-color: rgb(0, 162, 255);
+    }
+  
+    .who_we_h5 {
+      text-align: center;
+    }
+  
+    .who_we_h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+  
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      /* padding: 20px; */
+      box-sizing: border-box;
+      margin-left: 10%;
+    }
+  
+    .wowe_column1 p {
+      margin-top: -17px;
+      margin-bottom: 1rem;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 7%;
+    }
+  
+    .wowe_column2>img {
+      height: 100%;
+      width: 100%;
+      margin-top: -4;
+      margin-left: -20%;
+    }
+  
+    /*--------------- section five----------  */
+    .wowe_section-five {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .last {
+      align-content: center;
+      margin-left: -15%;
+    }
+  
+    .last .last_para {
+      margin-left: 50%;
+      margin-top: 3%;
+      align-items: center;
+    }
+  
+    .last .last_h4 {
+      margin-top: 2%;
+      margin-left: 30%;
+      align-items: center;
+    }
+  
+    .who_we_col {
+      flex-basis: 10%;
+      padding: 0px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      /* margin-left: 2.5%; */
+    }
+  
+    .col .who_we_h5 {
+      color: rgb(0, 170, 255);
+    }
+  
+    /* .attri{
+      margin-left: 50%;
+    } */
+    .paragraph {
+      margin-top: -24%;
+    }
+  
+    .img0 {
+      margin-top: -33%;
+      width: 45%;
+      height: 100%;
+      margin-left: 20%;
+    }
+  
+    .img1WhoWe {
+      width: 80%;
+      height: 87%;
+    }
+  
+    .img2WhoWe {
+      width: 81%;
+      height: 90%;
+    }
+  
+    .img3WhoWe {
+      width: 81%;
+      height: 90%;
+      margin-top: 3%;
+    }
+  }
+  
+  /*---------------- media query for tablet max-768 to min- 625 px   --------------------..-------------- */
+  
+  @media screen and (min-width: 625px) and (max-width: 768px) {
+  
+    /*--------------------- section-first ----------------*/
+    .wowe_section-one {
+      background-size: 100% 100%;
+      /* background-position: center; */
+      width: 100%;
+      height: 635px;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    .wowe_text2 {
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-left: 15%;
+    }
+  
+    .wowe_text3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    /* --------------------------down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: 22%;
+      left: 8%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -10px;
+      animation: animate 5s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.5s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    .wowe_section-two {
+      width: 100%;
+      height: 635px;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 25px;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .image {
+      position: relative;
+      width: 45%;
+      height: 40vh;
+      margin-left: 10%;
+    }
+  
+    .wowe_para>p {
+      width: 137%;
+      color: white;
+      text-align: left;
+      padding-left: 75%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-top: -57%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      margin-left: 15%;
+      width: 70%;
+      text-align: center;
+    }
+  
+    .wowe_p1 {
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      font-size: 30px;
+      color: rgb(0, 179, 255);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    .who_we_row {
+      display: flex;
+      width: 100%;
+  
+      /* margin-left: 50%; */
+    }
+  
+    .who_we_column {
+      flex-basis: 30%;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started---------- */
+    .wowe_section-four {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(0, 162, 255);
+    }
+  
+    .who_we_h5 {
+      text-align: center;
+    }
+  
+    .who_we_h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+  
+    /* tables */
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 p {
+      font-size: 14px;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 10%;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 7%;
+    }
+  
+    .wowe_column2>img {
+      height: 100%;
+      width: 100%;
+      margin-left: -20%;
+      margin-top: -4%;
+    }
+  
+    /* ----------------------------section five is started--------------------- */
+    .wowe_section-five {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .last {
+      align-content: center;
+      margin-left: 0%;
+      font-size: 1.2rem;
+    }
+  
+    .last .last_para {
+      margin-left: 38%;
+      margin-top: 1%;
+      align-items: center;
+    }
+  
+    .last .last_h4 {
+      margin-top: 0%;
+      margin-left: 15%;
+      align-items: center;
+      font-size: 20px;
+      margin-top: 2%;
+    }
+  
+    .who_we_col {
+      flex-basis: 10%;
+      padding: 0px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      /* margin-left: 2.5%; */
+    }
+  
+    .wowe_2_img {
+      width: 75%;
+      margin-top: 15%;
+    }
+  
+  
+  
+    .col .who_we_h5 {
+      font-size: 14px;
+      color: rgb(0, 170, 255);
+    }
+  
+    /* .attri{
+          margin-left: 50%;
+        } */
+  
+    .targetting {
+      margin-top: -12%;
+    }
+  
+    .paragraph {
+      margin-top: -110%;
+      width: 100%;
+    }
+  
+    .img0 {
+      width: 65%;
+      height: 300px;
+      margin-top: -30%;
+      margin-left: 4%;
+    }
+  
+    .img1WhoWe {
+      width: 97%;
+      height: 52%;
+      margin-top: 0%;
+    }
+  
+    .img2WhoWe {
+      width: 97%;
+      height: 52%;
+      margin-top: 0%;
+    }
+  
+    .img3WhoWe {
+      width: 100%;
+      height: 52%;
+      margin-top: 0%;
+    }
+  }
+  
+  /*----------------------- css media query for Mobile L max - 425px  -------------------------------------- */
+  @media screen and (max-device-width: 425px) {
+  
+    /*--------------------- section-first ----------------*/
+    .wowe_section-one {
+      background-size: 100% 100%;
+      /* background-position: center; */
+      width: 100%;
+      height: 635px;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    .wowe_text2 {
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-left: 15%;
+    }
+  
+    .wowe_text3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    /* --------------------------down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: 10%;
+      left: 15%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -10px;
+      animation: animate 5s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.5s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    /* -------section second started----------------  */
+    .wowe_section-two {
+      width: 100%;
+      height: auto;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 25px;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .img0 {
+      position: relative;
+      width: 205%;
+      height: 81vh;
+      margin-left: -62%;
+    }
+  
+    .wowe_para>p {
+      width: 139%;
+      color: white;
+      text-align: left;
+      padding-left: 14%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: -4px;
+      margin-top: 0%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: auto;
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      margin-left: 15%;
+      width: 70%;
+      text-align: center;
+    }
+  
+    .wowe_p1 {
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      font-size: 14px;
+      color: rgb(0, 179, 255);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    .who_we_row {
+      display: flex;
+      width: 100%;
+      /* margin-left: 50%; */
+    }
+  
+    .who_we_column {
+      flex-basis: 30%;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started-------------------------------------- */
+    .wowe_section-four {
+      height: 102vh;
+      width: 100%;
+      background-color: rgb(0, 162, 255);
+    }
+  
+    .who_we_h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .column>h4 {
+      font-size: 19px;
+    }
+  
+    /* tables */
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 10%;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 7%;
+    }
+  
+    .colpara {
+      width: 269%;
+      margin-left: -15%;
+    }
+  
+    .wowe_column2>img {
+      height: 10%;
+      width: 99%;
+      margin-left: -77%;
+      display: none;
+    }
+  
+    /* ----------------------------section five is started--------------------- */
+    .wowe_section-five {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .last {
+      align-content: center;
+    }
+  
+    .last .last_para {
+      margin-left: 30%;
+      margin-top: 3%;
+      align-items: center;
+    }
+  
+    .who_we_column_h4 {
+      font-size: 20px;
+    }
+  
+    .last .last_h4 {
+      margin-top: -2%;
+      margin-left: 6%;
+    }
+  
+    .who_we_col {
+      flex-basis: 10%;
+      padding: 0px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      /* margin-left: 2.5%; */
+    }
+  
+    .who_we_col {
+      margin-top: -90%;
+    }
+  
+    .col .who_we_h5 {
+      color: rgb(0, 170, 255);
+    }
+  
+    /* .attri{
+          margin-left: 50%;
+        } */
+  
+    .who_we_col_h5 {
+      margin-top: -251px;
+    }
+  
+    .paragraph {
+      /* margin-top: -408%; */
+      width: 145%;
+    }
+  
+    .img0 {
+      width: 110%;
+      height: 81%;
+      margin-left: 15%;
+      /* play: none; */
+    }
+  
+    .img1WhoWe {
+      width: 80%;
+      height: 87%;
+      display: none;
+    }
+  
+    .img2WhoWe {
+      width: 81%;
+      height: 90%;
+      display: none;
+    }
+  
+    .img3WhoWe {
+      width: 85%;
+      height: 70%;
+      display: none;
+    }
+  }
+  
+  /*----------------------------- media queries for Medium size mobile- 375 px --------------------- */
+  @media screen and (max-device-width: 375px) {
+  
+    /*------------------------------------ section-first ----------------*/
+    .wowe_section-one {
+      background-size: 100% 100%;
+      background-position: cover;
+      width: 100%;
+      height: 635px;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    .wowe_text2 {
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 25px;
+      margin-left: 15%;
+    }
+  
+    .wowe_text3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    /* --------------------------down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: 6%;
+      left: 46%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -5px;
+      animation: animate 5s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.2s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    /* ----------------------------------section second started------------------------------  */
+    .wowe_section-two {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 20px;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 22px;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .image {
+      position: relative;
+      width: 36%;
+      height: 24vh;
+      margin-left: 50%;
+    }
+  
+    .wowe_para>p {
+      width: 139%;
+      color: white;
+      text-align: left;
+      padding-left: 14%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      margin-top: 0%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: auto;
+    }
+  
+    .who_we_row {
+      font-size: 12px;
+      --bs-gutter-x: 0.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: calc(var(--bs-gutter-y) * -1);
+      margin-right: calc(var(--bs-gutter-x) * -0.5);
+      margin-left: calc(var(--bs-gutter-x) * 1.5);
+    }
+  
+    .wowe_2>img {
+      width: 93.5%;
+    }
+  
+    .who_we_h3 {
+      font-size: 22px;
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      margin-left: 15%;
+      width: 70%;
+      text-align: center;
+    }
+  
+    .wowe_p1 {
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      font-size: 14px;
+      color: rgb(0, 179, 255);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+  
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    /* .row{
+        display: flex;
+        width: 100%;
+        
+      } */
+    .who_we_column {
+      flex-basis: 76%;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started-------------------------------------- */
+    .wowe_section-four {
+      height: 100%;
+      width: 100%;
+      background-color: rgb(0, 162, 255);
+      padding-bottom: 20px;
+    }
+  
+    .who_we_h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .column>h4 {
+      font-size: 19px;
+    }
+  
+    /* tables */
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: -38%;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 7%;
+    }
+  
+    .targetting {
+      margin-top: -98% !important;
+    }
+  
+    .colpara {
+      width: 186%;
+      margin-left: -6%;
+      font-size: 15px;
+    }
+  
+    .wowe_column2>img {
+      height: 10%;
+      width: 99%;
+      margin-left: -77%;
+      display: none;
+    }
+  
+    /* ----------------------------section five is started--------------------- */
+    .wowe_section-five {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .last {
+      align-content: center;
+    }
+  
+    .who_we_container {
+      margin-top: 0px;
+    }
+  
+    .last .last_para {
+      margin-left: 30%;
+      margin-top: 3%;
+      align-items: center;
+    }
+  
+    .last .last_h4 {
+      margin-top: -2%;
+      margin-left: 6%;
+    }
+  
+    .who_we_col {
+      flex-basis: 10%;
+      padding: 0px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+  
+      /* margin-left: 2.5%; */
+    }
+  
+    .col .who_we_h5 {
+      margin-top: 77%;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_col {
+      margin-top: 0%;
+    }
+  
+    .who_we_col {
+      margin-top: 0%;
+    }
+  
+    /* .attri{
+        margin-left: 50%;
+      } */
+    .paragraph {
+      width: 139%;
+      margin-top: -400%;
+    }
+  
+    .img0 {
+      width: 120%;
+      height: 80%;
+      margin-left: 12%;
+      margin-top: -30%;
+      /* play: none; */
+    }
+  
+    .img1WhoWe {
+      width: 80%;
+      height: 87%;
+      display: none;
+    }
+  
+    .img2WhoWe {
+      width: 81%;
+      height: 90%;
+      display: none;
+    }
+  
+    .img3WhoWe {
+      width: 85%;
+      height: 70%;
+      display: none;
+    }
+  }
+  
+  /* -------------media queries for small mobile max device width is 320 px ---------------- */
+  
+  @media screen and (max-device-width: 320px) {
+  
+    /*--------------------- section-first ----------------*/
+    .wowe_section-one {
+      background-size: 100% 100%;
+      /* background-position: center; */
+      width: 100%;
+      height: 635px;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    .wowe_text2 {
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-left: 15%;
+    }
+  
+    .wowe_text3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 15%;
+    }
+  
+    /* --------------------------down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: -30%;
+      left: 30%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: 50px;
+      animation: animate 5s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.5s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    /* ----------------------------------section second started------------------------------  */
+    .wowe_section-two {
+      width: 100%;
+      height: auto;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 25px;
+      color: rgb(0, 170, 255);
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .image {
+      position: relative;
+      width: 36%;
+      height: 24vh;
+      margin-left: 50%;
+    }
+  
+    .wowe_para>p {
+      width: 139%;
+      color: white;
+      text-align: left;
+      padding-left: 14%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: -4px;
+      margin-top: 0%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: auto;
+    }
+  
+    .who_we_row {
+      --bs-gutter-x: 0.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(var(--bs-gutter-y) * -1);
+      margin-right: calc(var(--bs-gutter-x) * -0.5);
+      margin-left: calc(var(--bs-gutter-x) * 1.5);
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4%;
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      margin-left: 15%;
+      width: 70%;
+      text-align: center;
+    }
+  
+    .wowe_p1 {
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      font-size: 18px;
+      color: rgb(0, 179, 255);
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    /* .row{
+        display: flex;
+        width: 100%;
+        
+      } */
+    .who_we_column {
+      flex-basis: 76%;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started-------------------------------------- */
+    .wowe_section-four {
+      height: 102vh;
+      width: 100%;
+      background-color: rgb(0, 162, 255);
+    }
+  
+    .who_we_h5 {
+      text-align: center;
+      font-size: 10px;
+    }
+  
+    h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .column>h4 {
+      font-size: 19px;
+    }
+  
+    /* tables */
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 10%;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 7%;
+    }
+  
+    .colpara {
+      font-size: 13px;
+      width: 290%;
+      margin-left: -35%;
+    }
+  
+    .wowe_column2>img {
+      height: 10%;
+      width: 99%;
+      margin-left: -77%;
+      display: none;
+    }
+  
+    /* ----------------------------section five is started--------------------- */
+    .wowe_section-five {
+      height: auto;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .col .who_we_h5 {
+      font-size: 13px;
+    }
+  
+    .col p {
+      font-size: 13px;
+    }
+  
+    .who_we_col {
+      display: none;
+    }
+  
+    .c4 {
+      display: none;
+    }
+  
+    .last .last_para {
+      margin-left: 26%;
+    }
+  
+    .c1 {
+      margin-left: -166%;
+    }
+  
+    .who_we_col {
+      margin-left: -149%;
+    }
+  
+    .c3 {
+      margin-left: -80%;
+    }
+  
+    .c5 {
+      margin-left: -80%;
+    }
+  
+    .last .last_h4 {
+      margin-top: -2%;
+      margin-left: 6%;
+      font-size: 15px;
+    }
+  
+    .img0 {
+      width: 205%;
+      height: 81%;
+      display: none;
+    }
+  
+    .img1WhoWe {
+      width: 80%;
+      height: 87%;
+      display: none;
+    }
+  
+    .img2WhoWe {
+      width: 81%;
+      height: 90%;
+      display: none;
+    }
+  
+    .img3WhoWe {
+      width: 85%;
+      height: 70%;
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1020px) and (max-width: 1440px) {
+    .wowe_section-one {
+      background-size: 100% 100%;
+      /* background-position: center; */
+      width: 100%;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-image: url(../../Images/discuss1.webp);
+    }
+  
+    .wowe_text1 {
+      user-select: none;
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      color: rgb(0, 213, 255);
+      font-size: 30px;
+      padding-top: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 10%;
+    }
+  
+    .wowe_text2 {
+      user-select: none;
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-left: 10%;
+    }
+  
+    .wowe_text3 {
+      user-select: none;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 10%;
+    }
+  
+    /* -------------------------- media  query down arrow ---------------*/
+    .wowe_arrow_right {
+      position: relative;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: rotate(360deg);
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .wowe_fortopsec {
+      top: 12%;
+      left: 11%;
+    }
+  
+    .wowe_arrow_right span {
+      display: flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-bottom: 5px solid rgb(237, 207, 207);
+      border-right: 5px solid rgb(244, 219, 219);
+      transform: rotate(90deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+    }
+  
+    .wowe_arrow_right span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+  
+    .wowe_arrow_right span:nth-child(3) {
+      animation-delay: -0.5s;
+    }
+  
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+  
+      50% {
+        opacity: 1;
+      }
+  
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+  
+    .wowe_section-two {
+      width: 100%;
+      height: 100vh;
+      background-color: #2b1b17;
+    }
+  
+    .wowe_highlight {
+      margin-top: 10%;
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+  
+      justify-content: center;
+      color: rgb(0, 170, 255);
+    }
+  
+    .wowe_highlight1 {
+      font-size: 25px;
+      color: rgb(0, 170, 255);
+  
+  
+    }
+  
+    .who_we_t1 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 14%;  */
+  
+    }
+  
+    .who_we_t1 .who_we_t1_p {
+      text-align: center;
+    }
+  
+    .who_we_t2 {
+      width: 70%;
+    }
+  
+    .image {
+      position: relative;
+      width: 45%;
+      height: 40vh;
+      margin-left: 10%;
+    }
+  
+    .wowe_para>p {
+      width: 125%;
+      color: white;
+      text-align: left;
+      padding-left: 75%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 16px;
+      margin-top: -33%;
+    }
+  
+    /* ----------------section third started---------------- */
+    .wowe_section-three {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .who_we_head1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(0, 157, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 4%; */
+      /* margin-top: 2%; */
+    }
+  
+    .who_we_head1 .who_we_head1_para {
+      width: 71%;
+      text-align: center;
+      /* margin-left: 18%; */
+    }
+  
+    .wowe_p1 {
+  
+      font-size: 20px;
+      color: rgb(3, 3, 3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .wowe_p2 {
+      width: 80% !important;
+      margin-left: 10%;
+      font-size: 25px;
+      color: rgb(0, 179, 255);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    /* colmns pages started */
+    .who_we_cols {
+      margin-top: -5%;
+      width: 100%;
+      padding-left: 5%;
+      /* margin-right: -20%; */
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 5%; */
+    }
+  
+    .who_we_row {
+      display: flex;
+      width: 100%;
+      /* margin-left: 50%; */
+    }
+  
+    .who_we_column {
+      flex-basis: 30%;
+      /* padding: 20px; */
+      box-sizing: border-box;
+      align-items: center;
+      width: 100%;
+      margin-left: 2.5%;
+    }
+  
+    /* -------------section forth started---------- */
+    .wowe_section-four {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(0, 162, 255);
+    }
+  
+    .who_we_h5 {
+      margin-top: 5%;
+      text-align: center;
+    }
+  
+    .who_we_h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+  
+    .row2 {
+      margin-top: 5%;
+      align-content: center;
+      display: flex;
+    }
+  
+    .wowe_column1 {
+      flex-basis: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 10%;
+    }
+  
+    .wowe_column1 p {
+      font-size: 20px;
+      /* margin-top: -40px; */
+      margin-bottom: 1rem;
+    }
+  
+    .wowe_column2 {
+      flex-basis: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-left: 7%;
+      margin-top: -1.5%;
+    }
+  
+    .wowe_column2>img {
+      height: 90%;
+      width: 90%;
+      margin-top: -4;
+      margin-left: -20%;
+    }
+  
+    /*--------------- section five----------  */
+    .wowe_section-five {
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .last {
+      align-content: center;
+      margin-left: -15%;
+    }
+  
+    .last .last_para {
+      margin-left: 50%;
+      margin-top: 5%;
+      align-items: center;
+    }
+  
+    .last .last_h4 {
+      margin-top: 2%;
+      margin-left: 30%;
+      align-items: center;
+    }
+  
+    .who_we_col {
+      flex-basis: 10%;
+      padding: 0px;
+      box-sizing: border-box;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .col .who_we_h5 {
+      color: rgb(0, 170, 255);
+    }
+  
+    /* .attri{
+      margin-left: 50%;
+    } */
+    .paragraph {
+      margin-top: -24%;
+    }
+  
+    .img0 {
+      margin-top: -32%;
+      width: 47%;
+      height: 80%;
+      margin-left: 20%;
+    }
+  
+    .wowe_2_img {
+      width: 100%;
+      /* margin-top: -10%; */
+    }
+  
+    .img1WhoWe {
+      width: 80%;
+      height: 87%;
+    }
+  
+    .img2WhoWe {
+      width: 81%;
+      height: 90%;
+    }
+  
+    .img3WhoWe {
+      width: 81%;
+      height: 90%;
+      margin-top: 3%;
+    }
+  }

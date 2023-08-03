@@ -1,0 +1,459 @@
+#Foot_main_sec_div {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  z-index: 0;
+}
+
+.All_links_main_div {
+  width: 70%;
+  margin-left: 20%;
+  height: 200px;
+  /* border: 1px solid red; */
+  display: flex;
+  color: white;
+}
+
+.footer_card_div {
+  width: 25%;
+  height: 200px;
+  /* border: 1px solid white;   */
+}
+
+.footer_all_heading {
+  font-size: 20px;
+  font-weight: 800;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, #0051ff 50%, #009efa);
+}
+
+.anchor_tag {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.copy_right {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 20px;
+  z-index: -1;
+  position: relative;
+}
+
+.All_logoes_div {
+  /* border: 1px solid white; */
+  height: 100px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.foot_comp_logo {
+  width: 100px;
+  margin-left: 250px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.lets_get_high {
+  color: white;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.follow_us_on {
+  color: white;
+  margin-left: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.flogo {
+  color: white;
+  background-color: white;
+}
+
+.insta_pic_logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta_pic_logo > i {
+  color: black;
+  font-size: 22px;
+}
+
+.insta_pic_logo:hover {
+  box-shadow: 0 0 20px rgb(3, 247, 247);
+  background: linear-gradient(90deg, rgb(0, 110, 255), rgb(10, 117, 217));
+}
+
+.insta_pic_logo:hover .fa {
+  color: white;
+}
+
+.instagram {
+  text-align: center;
+  width: 20px;
+  margin-left: 16%;
+}
+
+.subscribe_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.foot_input {
+  outline: none;
+  width: 350px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: black;
+  border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  color: white;
+}
+
+.foot_input::placeholder {
+  color: white !important;
+  padding-left: 10px;
+}
+
+.foot_btn {
+  border: 2px solid;
+  color: white;
+  background-color: black;
+  border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.foot_btn:hover {
+  background: rgb(123, 234, 252);
+  background: linear-gradient(to right, #008cff 50%, #004ffa);
+  border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Foot_main_sec_div {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .All_links_main_div {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .footer_card_div {
+    width: 50%;
+    height: 170px;
+    text-align: center;
+    /* border: 1px solid white;   */
+  }
+
+  .copy_right {
+    height: auto;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .All_logoes_div {
+    /* border: 1px solid white; */
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .foot_comp_logo {
+    width: 90px;
+    margin-left: 50px;
+    height: 35px;
+  }
+
+  .insta_pic_logo > i {
+    color: black;
+    font-size: 18px;
+  }
+
+  .foot_btn {
+    padding: 1px;
+  }
+  .lets_get_high {
+    color: white;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+
+  .follow_us_on {
+    color: white;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+
+  .insta_pic_logo {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+  }
+
+  .instagram {
+    text-align: center;
+    width: 16px;
+    margin-left: 17%;
+    margin-bottom: 10%;
+  }
+
+  .subscribe_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 35px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .foot_input {
+    outline: none;
+    width: 350px;
+    height: 30px;
+    border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  #Foot_main_sec_div {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .All_links_main_div {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .footer_card_div {
+    width: 50%;
+    height: 170px;
+    text-align: center;
+    /* border: 1px solid white;   */
+  }
+
+  .copy_right {
+    height: auto;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .All_logoes_div {
+    /* border: 1px solid white; */
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .foot_comp_logo {
+    width: 150px;
+    margin-left: 200px;
+    height: 60px;
+  }
+
+  .lets_get_high {
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+
+  .follow_us_on {
+    color: white;
+    margin-left: 205px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .foot_btn {
+    font-size: 14px;
+    padding: 1px;
+  }
+  .insta_pic_logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram {
+    text-align: center;
+    width: 25px;
+    margin-left: 15%;
+    margin-bottom: -15%;
+  }
+
+  .subscribe_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .foot_input {
+    outline: none;
+    width: 350px;
+    height: 35px;
+    border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  }
+
+  .footer_all_heading {
+    font-size: 25px;
+  }
+
+  .anchor_tag {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  #Foot_main_sec_div {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .All_links_main_div {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .footer_card_div {
+    width: 50%;
+    height: 190px;
+    text-align: center;
+    /* border: 1px solid white;   */
+  }
+
+  .copy_right {
+    height: auto;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .All_logoes_div {
+    /* border: 1px solid white; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .foot_comp_logo {
+    width: 150px;
+    margin-left: 10%;
+    height: 60px;
+  }
+
+  .lets_get_high {
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 15px;
+  }
+
+  .follow_us_on {
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .insta_pic_logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram {
+    text-align: center;
+    width: 25px;
+    margin-left: 15%;
+    margin-bottom: -15%;
+  }
+
+  .subscribe_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .foot_input {
+    outline: none;
+    width: 350px;
+    height: 35px;
+    border-image: linear-gradient(to right, #008cff 50%, #004ffa) 1;
+  }
+
+  .footer_all_heading {
+    font-size: 25px;
+  }
+
+  .anchor_tag {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

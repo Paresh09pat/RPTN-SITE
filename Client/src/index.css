@@ -1,0 +1,18 @@
+/* html {
+  overflow-y: scroll !important;
+  width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: linear-gradient(rgb(122, 189, 252), rgb(61, 125, 243));
+  -webkit-box-shadow: 0 0 1px rgba(65, 65, 65, 0.5);
+  
+} */
