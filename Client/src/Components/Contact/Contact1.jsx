@@ -1,422 +1,3 @@
-// import React from 'react'
-// import "./Contact.css"
-
-// function Contact1() {
-//   return (
-//   <>
-//   <div className="body__first">
-//           <div className="centerplease1" style={{ color: "#07abf1" }}>
-//             <h1>FAQ</h1>
-//           </div>
-//           <br />
-//           <div className="content">
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question1"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question1" className="question">
-//                 What is the RP Tech Novelty?
-//               </label>
-//               <div className="answers">
-//                 RedPhantom Tech Novelty is a recognized Software company
-//                 Technical solution that use trending technology &amp; aspires
-//                 where people may interact with future technology in the present
-//                 .
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question2"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question2" className="question">
-//                 What is the Vision and Mission of RP Tech Novelty?
-//               </label>
-//               <div className="answers">
-//                 Vision is important and "To be the prestigious and leading
-//                 industry of entire market ... This program conducted by
-//                 RedPhantom Tech Novelty Private Limited.
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question3"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question3" className="question">
-//                 What is the Motto of RP Tech Novelty?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question4"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question4" className="question">
-//                 When the RPTN is Established?
-//               </label>
-//               <div className="answers">
-//                 Redphantom Tech Novelty Private Limited is a Private
-//                 incorporated on 01 October 2021. It is classified as Non-govt
-//                 company and is registered at Registrar of Companies, Pune.....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question5"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question5" className="question">
-//                 What is the Services provided by RP Tech Novelty?
-//               </label>
-//               <div className="answers">
-//                 We partner with business to provider innovative solutions for
-//                 their critical IT operation. We provide end-to-end solutions
-//                 from concept and strategy, to design ... ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question6"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question6" className="question">
-//                 What are the benifit of RPTN?
-//               </label>
-//               <div className="answers">
-//                 1-Reduced design &amp; development time. 2-Reduced overall
-//                 product development cost. 3-Elimination or reduction of risk.
-//                 4-Allows functionality testing at a fraction of the cost.
-//                 5-Improved and increased user involvement during design stages
-//                 of NPD. 6-Ability to evaluate human factors and ergonomics.....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question7"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question3" className="question">
-//                 How RPTN helping to Youth?
-//               </label>
-//               <div className="answers">
-//                 A strong youth population equals a strong nation. This program
-//                 conducted by RedPhantom Tech Novelty Private Limited. For more
-//                 details....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question7"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question7" className="question">
-//                 How RPTN solve the modern problems using technologies?
-//               </label>
-//               <div className="answers">
-//                 Using technology to solve problems does not involve “thinking
-//                 outside the box.” It involves thinking from a different box, one
-//                 that harnesses knowledge to bring about a radical change.
-//                 Technology for transformation redefines human life and makes the
-//                 impossible possible. Small technologies can solve big
-//                 problems.....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question8"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question8" className="question">
-//                 What is the Motto of RP Tech Novelty?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question9"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question9" className="question">
-//                 how to RPTN is unique?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question10"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question10" className="question">
-//                 What are the new Technologies used and developed by RPTN?
-//               </label>
-//               <div className="answers">
-//                 From a birds eye view, a blockchain developer specializes in
-//                 developing and implementing architecture and solutions using
-//                 blockchain technology.....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question11"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question11" className="question">
-//                 How the RPTN is Unique?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people .......
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question12"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question12" className="question">
-//                 How RPTN enhanced in Securities?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question13"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question13" className="question">
-//                 How RPTN helps youth in career?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question14"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question14" className="question">
-//                 how can you get job in RPTN?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question15"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question15" className="question">
-//                 What are the eligibility criteria to apply job at RPTN?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question16"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question16" className="question">
-//                 Do you offer any Freelancing Service?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question17"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question17" className="question">
-//                 Do you have specific feature for cyber security?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question18"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question18" className="question">
-//                 How RPTN step into Nanotechnology?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question19"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question19" className="question">
-//                 Do you have Any product related to Blockchain Technology?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question20"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question20" className="question">
-//                 is there any Solution for recycling AI products?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question21"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question21" className="question">
-//                 How RPTN helps youth in career?
-//               </label>
-//               <div className="answers">
-//                 To be a globally recognized company offering unparalleled
-//                 business solutions that use cutting-edge technology &amp;
-//                 aspires to provides a platform where people ....
-//               </div>
-//             </div>
-//             <div>
-//               <input
-//                 type="checkbox"
-//                 id="question22"
-//                 name="q"
-//                 className="questions"
-//               />
-//               <div className="plus">+</div>
-//               <label htmlFor="question22" className="question">
-//                 How do I get in touch with the organization?
-//               </label>
-//               <div className="answers">
-//                 The best way to contact us is by e-mailing us, there is a link
-//                 to e-mail us at the bottom of the page or you can visit the
-//                 "Contact Us" page.
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-
-//   </>
-//   )
-// }
-
-// export default Contact1
-
-
 
 import React, { useState } from 'react';
 import "./Contact.css";
@@ -437,7 +18,7 @@ function Contact1() {
   return (
     <>
       <div className="body__first">
-        <div className=" " style={{ color: "#07abf1" }}>
+        <div className="faqfaq " style={{ color: "#07abf1" }}>
           <h1>FAQ</h1>
         </div>
         <br />
@@ -593,13 +174,16 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question7" className="question">
-              When the RPTN is Established?
+            How RPTN solve the modern problems using technologies?
             </label>
             {activeQuestion === "question7" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              Using technology to solve problems does not involve “thinking
+                 outside the box.” It involves thinking from a different box, one
+                 that harnesses knowledge to bring about a radical change.
+                 Technology for transformation redefines human life and makes the
+                 impossible possible. Small technologies can solve big
+                 problems.....
               </div>
             )}
           </div>
@@ -617,13 +201,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question8" className="question">
-              When the RPTN is Established?
+            What is the Motto of RP Tech Novelty?
             </label>
             {activeQuestion === "question8" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+              business solutions that use cutting-edge technology &amp;
+              aspires to provides a platform where people ....
               </div>
             )}
           </div>
@@ -641,13 +225,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question9" className="question">
-              When the RPTN is Established?
+            how to RPTN is unique?
             </label>
             {activeQuestion === "question9" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+              business solutions that use cutting-edge technology &amp;
+              aspires to provides a platform where people ....
               </div>
             )}
           </div>
@@ -664,13 +248,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question10" className="question">
-              When the RPTN is Established?
+            What are the new Technologies used and developed by RPTN?
             </label>
             {activeQuestion === "question10" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              From a birds eye view, a blockchain developer specializes in
+              developing and implementing architecture and solutions using
+              blockchain technology.....
               </div>
             )}
           </div>
@@ -688,13 +272,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question11" className="question">
-              When the RPTN is Established?
+            How the RPTN is Unique?
             </label>
             {activeQuestion === "question11" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -712,13 +296,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question12" className="question">
-              When the RPTN is Established?
+            How RPTN enhanced in Securities?
             </label>
             {activeQuestion === "question12" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -736,13 +320,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question13" className="question">
-              When the RPTN is Established?
+            How RPTN helps youth in career?
             </label>
             {activeQuestion === "question13" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -760,13 +344,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question14" className="question">
-              When the RPTN is Established?
+            how can you get job in RPTN?
             </label>
             {activeQuestion === "question14" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -784,13 +368,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question15" className="question">
-              When the RPTN is Established?
+            What are the eligibility criteria to apply job at RPTN?
             </label>
             {activeQuestion === "question15" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -808,13 +392,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question16" className="question">
-              When the RPTN is Established?
+            Do you offer any Freelancing Service?
             </label>
             {activeQuestion === "question16" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -832,13 +416,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question17" className="question">
-              When the RPTN is Established?
+            Do you have specific feature for cyber security?
             </label>
             {activeQuestion === "question17" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -856,13 +440,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question18" className="question">
-              When the RPTN is Established?
+            How RPTN step into Nanotechnology?
             </label>
             {activeQuestion === "question18" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -880,13 +464,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question19" className="question">
-              When the RPTN is Established?
+            Do you have Any product related to Blockchain Technology?
             </label>
             {activeQuestion === "question19" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -904,13 +488,13 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question20" className="question">
-              When the RPTN is Established?
+            is there any Solution for recycling AI products?
             </label>
             {activeQuestion === "question20" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
-                incorporated on 01 October 2021. It is classified as a Non-govt
-                company and is registered at Registrar of Companies, Pune....
+              To be a globally recognized company offering unparalleled
+                business solutions that use cutting-edge technology &amp;
+                aspires to provides a platform where people ......
               </div>
             )}
           </div>
@@ -928,11 +512,11 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question21" className="question">
-              When the RPTN is Established?
+            How RPTN helps youth in career?
             </label>
             {activeQuestion === "question21" && (
               <div className="answers">
-                Redphantom Tech Novelty Private Limited is a Private
+              Redphantom Tech Novelty Private Limited is a Private
                 incorporated on 01 October 2021. It is classified as a Non-govt
                 company and is registered at Registrar of Companies, Pune....
               </div>
@@ -951,7 +535,7 @@ function Contact1() {
             />
             <div className="plus">+</div>
             <label htmlFor="question22" className="question">
-              When the RPTN is Established?
+            How do I get in touch with the organization?
             </label>
             {activeQuestion === "question22" && (
               <div className="answers">

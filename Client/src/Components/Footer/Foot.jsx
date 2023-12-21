@@ -21,7 +21,7 @@ function Foot() {
     } else {
       setLoading(true); // Step 2: Set loading state to true
       axios
-        .post(`https://main-backend-39e3.onrender.com/subscribe`, { email })
+        .post(`http://localhost:3001/subscribe`, { email })
         .then((response) => {
           if (response.status === 200) {
             setEmail("");

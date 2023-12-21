@@ -89,10 +89,11 @@ async function writeToSheet(email) {
 }
 
 
-app.post('/submit-form', async (req, res) => {
+app.post('/submitForm', async (req, res) => {
   const { firstName,lastName, email,mobileNumber, message } = req.body;
+  console.log(req.body);
 
-  const spreadsheetId = '1nFw-AfOf2KkAKiuUzpxxPHgSci_66kXhH9yyeVKly-A'; // Replace with the ID of your Google Sheets file
+  const spreadsheetId = '1kFvA6z0d9TqqO-aSSthjPijeG7Egkq-_nDm-ztjL-jo'; // Replace with the ID of your Google Sheets file
   const credentials = require('./credentials.json'); // Replace with the path to your credentials JSON file
 
   // Set up Google Sheets API client
